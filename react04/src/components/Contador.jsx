@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import "../css/contador.css";
 
-export default function HookState02({quantidade}) {
+export default function Contador({quantidade}) {
   
   const [valor, setValor] = useState(0);
   
