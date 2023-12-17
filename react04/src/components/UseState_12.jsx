@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import HookState12a from "./UseState_12a";
+import HookState12b from "./UseState_12b";
 
 export default function HookState12() {
 
@@ -22,7 +23,7 @@ export default function HookState12() {
         {btnText}
       </button>
       
-      <HookState12a exibir={!exibir} />
+      {!exibir ? <HookState12a /> : <HookState12b />}
     </>
   )
 }

@@ -1,7 +1,7 @@
-export default function HookState12a({exibir}) {
+export default function HookState12a() {
   return (
     <>
-      { exibir ? <p>Componente A</p> : <p>Componente B</p> }
+      <p>Componente A</p>
     </>
   )
 }
