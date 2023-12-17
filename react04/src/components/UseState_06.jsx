@@ -19,7 +19,7 @@ export default function HookState06() {
     <>
       <h4>useState - Exercício 4</h4>
       
-      <p>Valor: Adição de {valor1} + {valor2} = {valor1 + valor2}</p>
+      <p>Adição de {valor1} + {valor2} = {valor1 + valor2}</p>
       <hr />
       <UseState_06a 
         diminuir={() => diminuir(1, 5)} 
