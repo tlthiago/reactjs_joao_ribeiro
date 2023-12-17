@@ -10,12 +10,15 @@ export default function HookState09() {
       <h4>useState - Exercício 7</h4>
 
       <button 
-        onClick={() => {
-          setLogin(!login)
-          setBtnText(login ? "Login" : "Logout")
+        onClick={
+          () => {
+            setLogin(!login)
+            setBtnText(login ? "Login" : "Logout")
+          }
         }
-      }
-      >{btnText}</button>
+      >
+        {btnText}
+      </button>
       
       {login && <p>Usuário logado!</p>}
     </>

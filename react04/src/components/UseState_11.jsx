@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "../css/useState_11.css";
 
-export default function HookState09() {
+export default function HookState11() {
 
   const [classe, setClasse] = useState(false);
   
