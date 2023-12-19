@@ -15,7 +15,8 @@
 // import HookState15 from "./components/UseState_15";
 // import HookRef16 from "./components/UseRef_16";
 // import HookEffect17 from "./components/UseEffect_17";
-import HookEffect18 from "./components/UseEffect_18";
+// import HookEffect18 from "./components/UseEffect_18";
+import HookEffect19 from "./components/UseEffect_19";
 
 export default function App() {
   return (
@@ -38,7 +39,8 @@ export default function App() {
       {/* <HookState15 /> */}
       {/* <HookRef16 /> */}
       {/* <HookEffect17 /> */}
-      <HookEffect18 />
+      {/* <HookEffect18 /> */}
+      <HookEffect19 />
     </>
   )
 }
